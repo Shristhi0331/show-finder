@@ -1,0 +1,58 @@
+
+.container{
+    align-items: center;
+    margin-top: 60px;
+    border: 2px solid white;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.3);
+    z-index: 1;
+    box-shadow: 1px 1px 5px white;
+    overflow: hidden;
+}
+h1{
+    font-size: 60px;
+    letter-spacing: 4px;
+    font-weight: 800;
+    text-align: center;
+    color: aliceblue;
+}
+input{
+    width: 60%;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 3px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+::placeholder{
+    color: blue;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    height: 26px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    color: blue;
+}
+img{
+    margin: 10px;
+    margin-left: 22px;
+}
+body{
+    margin: 20px;
+    background-image: linear-gradient(to right, rgb(247, 83, 83),rgb(135, 56, 210),rgb(40, 57, 248),rgb(56, 105, 210));
+}
+button:hover{
+    background-color: rgb(245, 178, 96);
+}
+h1:hover{
+    color: bisque;
+}
